@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Drag a Drop</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="contenedor-lista">
+			<h1>Drag and Drop con Javascript</h1>
+				<!-- ? Persons -->
+			<div class="lista" id="lista">
+				<div class="persona" data-id="1">
+					<div class="foto">
+						<img src="img/artur.jpeg" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Name</p>
+						<p class="dato">Arturo Yesid</p>
+					</div>
+					<div class="edad">
+						<p class="label">Age</p>
+						<p class="dato">19</p>
+					</div>
+					<div class="correo">
+						<div class="label">Email</div>
+						<p class="dato">YesidA100@gmail.com</p>
+					</div>
+				</div>
+				
+				<div class="persona" data-id="2">
+					<div class="foto">
+						<img src="img/alejandra.jpeg" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Name</p>
+						<p class="dato">Alejandra</p>
+					</div>
+					<div class="edad">
+						<p class="label">Age</p>
+						<p class="dato">14</p>
+					</div>
+					<div class="correo">
+						<div class="label">Email</div>
+						<p class="dato">alejandra500@gmail.com</p>
+					</div>
+				</div>
+
+				<div class="persona" data-id="3">
+					<div class="foto">
+						<img src="img/Andrea.jpeg" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Name</p>
+						<p class="dato">Adis</p>
+					</div>
+					<div class="edad">
+						<p class="label">Age</p>
+						<p class="dato">16</p>
+					</div>
+					<div class="correo">
+						<div class="label">Email</div>
+						<p class="dato">andre962@gmail.com</p>
+					</div>
+				</div>
+
+				<div class="persona" data-id="4">
+					<div class="foto">
+						<img src="img/alejandro.jpeg" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Nombre</p>
+						<p class="dato">Mike</p>
+					</div>
+					<div class="edad">
+						<p class="label">Edad</p>
+						<p class="dato">18</p>
+					</div>
+					<div class="correo">
+						<div class="label">Correo</div>
+						<p class="dato">duvanvivas100@gmail.com.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js">
+		//CDN de sortable
+	</script>
+	<script src="js/app.js"></script>
+</body>
+</html>
